@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: api-delivery
+  datasource:
+    url: jdbc:mysql://db:3306/delivery_db
+    username: delivery_user
+    password: delivery_password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
